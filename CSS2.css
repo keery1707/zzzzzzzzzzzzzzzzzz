@@ -1,0 +1,151 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  font: bold 20px verdana, sans-serif;
+  margin: 20px 0px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 23px;
+  text-align: center;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #99ab93;
+  margin: 10px solid #73916a;
+}
+.contenedorPrincipal{
+  max-width: 1000px;
+  margin: 0 auto;
+
+}
+header{
+  background-color: #c6e6bc;
+ 
+  width: 100%;
+  height: 64px;
+  border: 7px solid #73916a;
+
+}
+
+nav {
+  background: #cfd4cd;
+  padding: 5px 15px;
+  height: 33px;
+   border: 4px solid #fbfffa;
+   margin: 20px 0px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  list-style: none;
+  padding: 5px;
+ 
+}
+
+nav ul li a {
+  color: #0f0f0f;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+main{
+  
+  width: 70%;
+  float: left;
+  padding: 20px;
+ margin-bottom: 15px;
+}
+main img{
+  max-width: 100%;
+
+}
+main section{
+  padding: 30px;
+
+}
+main section p{
+  text-align: justify;
+  margin-bottom: 16px;
+  line-height: 1.5em;
+}
+main h1{
+  margin-bottom: 20px;
+  font-size: 1.6em;
+}
+aside{
+  width: 30%;
+  float: left;
+  background-color:#b1d9a5;
+  padding: 30px;
+  border: 6px solid #0b2104;
+  margin: 20px 0px;
+
+
+}
+aside ul li{
+  text-decoration: none;
+  color: black;
+}
+aside ul li:hover{
+  color: #425067;
+}
+aside ul li{
+  list-style-type: none;
+  margin-bottom: 16px;
+  border-bottom: 1px solid black;
+}
+aside h2{
+  color: black;
+  font-size: 1.4em;
+}
+footer{
+  width: 100%;
+  clear: both;
+  padding: 60px;
+  background-color: #99ab93;
+  border-top: 6px solid #18400c;
+}
+footer p{
+  color: white;
+  text-align: center;
+  
+}
+@media screen and (max-width: 800px) {
+  main{
+    width:100%;
+    display:block;
+
+  }
+  aside{
+    width: 100%;
+    display:block;
+  }
+  footer{
+    width: 100%;
+    display: block;
+  }
+}
+
+section {
+   border: 7px solid #73916a;
+   background-color: #edf2ee;
+
+}
